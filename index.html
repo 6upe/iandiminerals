@@ -1,193 +1,595 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
 
-    <title>I&I Mineral - Unlocking Earth's Hidden Wealth</title>
-    <meta
-      name="description"
-      content="Premium mineral trading excellence spanning global markets. We specialize in sourcing and trading the world’s finest copper cathodes, gold, diamonds, emeralds, and precious minerals."
-    />
-    <meta
-      name="keywords"
-      content="minerals, copper cathodes, gold, diamonds, emeralds, mining, trading, commodities"
-    />
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>I&I Mineral Trading - Ethical & Sustainable Minerals</title>
+  <meta name="description" content="I&I Mineral Trading Limited is a Zambian-registered company specializing in ethical and sustainable trading of copper, gold, diamonds, emeralds, rubies, and other precious minerals worldwide.">
+  <meta name="keywords" content="I&I Mineral Trading, Minerals, Copper, Gold, Diamonds, Emeralds, Rubies, Zambia, Ethical Mining, Sustainable Trading, Precious Minerals">
+  <meta name="author" content="I&I Mineral Trading Limited">
 
-    <!-- Open Graph / Facebook / WhatsApp -->
-    <meta property="og:type" content="website" />
-    <meta property="og:url" content="https://iimineral.pikozm.com/" />
-    <meta
-      property="og:title"
-      content="I&I Mineral - Unlocking Earth's Hidden Wealth"
-    />
-    <meta
-      property="og:description"
-      content="Premium mineral trading excellence spanning global markets. Explore our commodities and get trading quotes today."
-    />
-    <meta
-      property="og:image"
-      content="https://iimineral.pikozm.com/assets/img/favicon.png"
-    />
+  <!-- Open Graph / Facebook -->
+  <meta property="og:title" content="I&I Mineral Trading - Ethical & Sustainable Minerals">
+  <meta property="og:description" content="Specializing in ethical and sustainable trading of copper, gold, diamonds, emeralds, rubies, and other precious minerals worldwide.">
+  <meta property="og:image" content="images/logo.png">
+  <meta property="og:url" content="https://www.iimineral.pikozm.com">
+  <meta property="og:type" content="website">
 
-    <!-- Twitter -->
-    <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:url" content="https://iimineral.pikozm.com/" />
-    <meta
-      name="twitter:title"
-      content="I&I Mineral - Unlocking Earth's Hidden Wealth"
-    />
-    <meta
-      name="twitter:description"
-      content="Premium mineral trading excellence spanning global markets. Explore our commodities and get trading quotes today."
-    />
-    <meta
-      name="twitter:image"
-      content="https://iimineral.pikozm.com/assets/img/favicon.png"
-    />
+  <!-- Twitter -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="I&I Mineral Trading - Ethical & Sustainable Minerals">
+  <meta name="twitter:description" content="Specializing in ethical and sustainable trading of copper, gold, diamonds, emeralds, rubies, and other precious minerals worldwide.">
+  <meta name="twitter:image" content="images/logo.png">
 
-    <!-- Favicons -->
-    <link href="assets/img/favicon.png" rel="icon" />
-    <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon" />
+  <!-- Favicons -->
+  <link rel="icon" href="images/logo.png" type="image/x-icon">
+  <link rel="shortcut icon" href="images/logo.png" type="image/x-icon">
 
-    <!-- Google Fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&family=Roboto:wght@300;400;500;700&family=Work+Sans:wght@400;500;600;700&display=swap"
-      rel="stylesheet"
-    />
+  <!-- Stylesheets -->
+  <link rel="stylesheet" type="text/css" href="css/vendor.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
 
-    <!-- Vendor CSS Files -->
-    <link
-      href="assets/vendor/bootstrap/css/bootstrap.min.css"
-      rel="stylesheet"
-    />
-    <link
-      href="assets/vendor/bootstrap-icons/bootstrap-icons.css"
-      rel="stylesheet"
-    />
-    <link
-      href="assets/vendor/fontawesome-free/css/all.min.css"
-      rel="stylesheet"
-    />
-    <link href="assets/vendor/aos/aos.css" rel="stylesheet" />
-    <link
-      href="assets/vendor/glightbox/css/glightbox.min.css"
-      rel="stylesheet"
-    />
-    <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet" />
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 
-    <!-- Template Main CSS File -->
-    <link href="assets/css/main.css" rel="stylesheet" />
-  </head>
+  <!-- Scripts -->
+  <script src="js/modernizr.js"></script>
+  <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</head>
 
-  <body>
-    <!-- ======= Header ======= -->
-    <header id="header" class="header d-flex align-items-center">
-      <div
-        class="container-fluid container-xl d-flex align-items-center justify-content-between"
-      >
-        <!-- Logo -->
-        <a href="#" class="logo d-flex align-items-center">
-          <img
-            src="assets/img/favicon.png"
-            alt="I&I Mineral Logo"
-            class="me-2"
-          />
-          <h1 class="sitename">
-            I&I <span class="text-warning">Mineral</span>
-          </h1>
-        </a>
 
-        <!-- Mobile Nav Toggle -->
-        <i class="mobile-nav-toggle mobile-nav-show bi bi-list"></i>
-        <i class="mobile-nav-toggle mobile-nav-hide d-none bi bi-x"></i>
 
-        <!-- Navigation -->
-        <nav id="navbar" class="navbar">
-          <ul>
-            <li><a href="#" class="active">Home</a></li>
-            <li><a href="#">About</a></li>
-            <li><a href="#">Commodities</a></li>
-            <li><a href="#">Sustainability</a></li>
-            <li><a href="#">Trade Network</a></li>
-            <li><a href="#">Contact</a></li>
+<body data-bs-spy="scroll" data-bs-target="#navbar-example2" tabindex="0">
+
+<!-- nav bar start  -->
+<header id="nav" class="site-header position-fixed text-white bg-dark">
+  <nav id="navbar-example2" class="navbar navbar-expand-lg py-2">
+    <div class="container">
+
+      <!-- Logo -->
+      <a class="navbar-brand" href="./index.html">
+        <img src="images/logo.png" alt="I&I Mineral Trading Logo" height="50">
+        I&I Mineral Trading
+      </a>
+
+      <!-- Mobile toggle -->
+      <button class="navbar-toggler text-white" type="button" data-bs-toggle="offcanvas"
+        data-bs-target="#offcanvasNavbar2" aria-controls="offcanvasNavbar2" aria-label="Toggle navigation">
+        <ion-icon name="menu-outline" style="font-size: 30px;"></ion-icon>
+      </button>
+
+      <!-- Offcanvas Menu -->
+      <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar2" aria-labelledby="offcanvasNavbar2Label">
+        <div class="offcanvas-header">
+          <h5 class="offcanvas-title" id="offcanvasNavbar2Label">Menu</h5>
+          <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
+          <ul class="navbar-nav align-items-center justify-content-end flex-grow-1">
+
+            <!-- Navigation Links -->
+            <li class="nav-item">
+              <a class="nav-link active me-md-4" href="#hero">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link me-md-4" href="#about-us">About Us</a>
+            </li>
+           
+            <li class="nav-item">
+              <a class="nav-link me-md-4" href="#our-minerals">Our Minerals</a>
+            </li>
+            
+            <li class="nav-item">
+              <a class="nav-link me-md-4" href="#team">Our team</a>
+            </li>
+           
+            <li class="nav-item">
+              <a class="nav-link me-md-4" href="#contact">Contact</a>
+            </li>
+
+            <!-- Optional Login/Sign Up -->
+            <!--
+            <li class="nav-item">
+              <a class="nav-link mx-md-4" href="#" data-bs-toggle="modal" data-bs-target="#loginModal">Login</a>
+            </li>
+            <li class="nav-item">
+              <a class="btn-medium btn btn-primary" href="#" data-bs-toggle="modal" data-bs-target="#signupModal">Sign Up</a>
+            </li>
+            -->
+
           </ul>
-        </nav>
-        <!-- .navbar -->
+        </div>
       </div>
-    </header>
-    <!-- End Header -->
 
-    <!-- ======= Hero Section ======= -->
-    <section id="hero" class="hero">
-      <div class="info d-flex align-items-center">
-        <div class="container">
-          <div class="row justify-content-center">
-            <div class="col-lg-6 text-center">
-              <h1 class="hero-title text-white">
-                Unlocking Earth's <br /><span class="highlight text-warning"
-                  >Hidden Wealth</span
-                >
-              </h1>
-              <p class="hero-subtext">
-                Premium mineral trading excellence spanning global markets. We
-                specialize in sourcing and trading the world’s finest copper
-                cathodes, gold, diamonds, emeralds, and precious minerals.
-                <!-- </p>
-              <a href="#" class="">
-        Explore Our Commodities
-      </a> -->
-              </p>
-              <a href="#" class=""> Website Under Construction </a>
-              <a href="#" class="btn-get-started"> Get Trading Quote </a>
-            </div>
-
-            <!-- Trusted badges -->
-    <div class="hero-badges d-flex justify-content-center gap-4 mt-5">
-      <span><i class="bi bi-check-circle-fill text-info me-1"></i> Trusted by Global Partners</span>
-      <span><i class="bi bi-clock-history text-warning me-1"></i> 15+ Years Experience</span>
-      <span><i class="bi bi-globe-americas text-primary me-1"></i> Worldwide Operations</span>
     </div>
+  </nav>
+</header>
+<!-- nav bar end -->
+
+
+
+<!-- billboard / hero start -->
+<section id="billboard" class="py-5 bg-dark text-white">
+  <div class="container">
+    <div class="row flex-lg-row-reverse align-items-center">
+
+      <!-- Hero Image -->
+      <div class="col-lg-6 mb-4 mb-lg-0">
+        <img src="images/img (1).png" class="d-block mx-lg-auto img-fluid rounded" alt="I&I Mineral Trading" width="700" height="500" loading="lazy">
+      </div>
+
+      <!-- Hero Text -->
+      <div class="col-lg-6">
+        <h1 class="text-capitalize lh-1 my-3 display-5 fw-bold">Ethical & Sustainable Mineral Trading Worldwide</h1>
+        <p class="lead mb-4">
+          I&I Mineral Trading Limited is committed to responsibly sourcing and trading copper, gold, diamonds, emeralds, rubies, and other precious minerals across Africa, the Middle East, Asia, and North America, delivering value through integrity, efficiency, and sustainable practices.
+        </p>
+
+        <!-- Call-to-Action Buttons -->
+        <div class="d-flex flex-wrap gap-3 mt-4">
+          <a href="#our-minerals" class="btn btn-primary btn-lg">Explore Our Minerals</a>
+          <a href="#contact" class="btn btn-outline-light btn-lg">Get in Touch</a>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+<!-- billboard / hero end -->
+
+
+
+<!-- About Us start -->
+<section id="about-us" class="py-5 bg-dark">
+  <div class="container">
+
+    <!-- Section Title -->
+    <div class="row mb-5">
+      <div class="col text-center">
+        <h2 class="text-capitalize fw-bold">About I&I Mineral Trading</h2>
+      </div>
+    </div>
+
+    <!-- Company Overview -->
+    <div class="row align-items-center mb-5">
+      <div class="col-lg-6">
+        <img src="images/img (6).png" class="img-fluid rounded" alt="I&I Mineral Trading Overview" loading="lazy">
+      </div>
+      <div class="col-lg-6">
+        <h3 class="fw-bold mb-3">Company Overview</h3>
+        <p>
+          I&I Mineral Trading Limited is a Zambian-registered subsidiary of I&I Consulting Co. LLC, a U.S.-based company. 
+          Established on <strong>4th July 2025</strong>, the company is committed to the ethical and efficient trading 
+          of high-value minerals across Africa, the Middle East, Asia, and North America.
+        </p>
+        <p>
+          From its strategic base in Lusaka, Zambia, I&I Mineral Trading facilitates the international supply of 
+          non-ferrous metals and precious minerals, offering partners a trusted platform for mineral sourcing 
+          backed by transparent practices and professional integrity.
+        </p>
+        <p>
+          We value the people and communities we engage with, fostering fair trade and mutual respect across diverse 
+          cultural environments.
+        </p>
+      </div>
+    </div>
+
+    <!-- Mission Statement -->
+    <div class="row justify-content-center">
+      <div class="col-lg-10 text-center">
+        <h3 class="fw-bold mb-3">Mission Statement</h3>
+        <p class="lead fst-italic">
+          "To responsibly source and trade copper cathodes, gold, emeralds, diamonds, and other non-ferrous metals 
+          and precious minerals, delivering value to our partners through integrity, efficiency, and a commitment 
+          to ethical and sustainable practices."
+        </p>
+      </div>
+    </div>
+
+  </div>
+</section>
+<!-- About Us end -->
+
+<!-- Services Start -->
+<section id="services">
+  <div class="container my-5 py-5">
+    <h2 class="text-capitalize text-center mb-5">Our Services</h2>
+
+    <div class="row g-4">
+
+      <!-- Copper Cathode Trading -->
+      <div class="col-md-6 col-lg-3">
+        <div class="card h-100 text-center shadow-sm">
+          <img src="images/img (8).png" class="card-img-top" alt="Copper Cathode Trading">
+          <div class="card-body">
+            <h5 class="card-title pt-2">Copper Cathode Trading</h5>
+            <p class="card-text small text-muted">Sourcing and trading high-quality copper cathodes with international compliance.</p>
           </div>
         </div>
       </div>
 
-      <div
-        id="hero-carousel"
-        class="carousel slide"
-        data-bs-ride="carousel"
-        data-bs-interval="5000"
-      >
-        <div
-          class="carousel-item active"
-          style="
-            background-image: url(assets/img/hero-carousel/hero-carousel-1.png);
-          "
-        ></div>
+      <!-- Gold Trading -->
+      <div class="col-md-6 col-lg-3">
+        <div class="card h-100 text-center shadow-sm">
+          <img src="images/img (5).png" class="card-img-top" alt="Gold Trading">
+          <div class="card-body">
+            <h5 class="card-title pt-2">Gold Trading</h5>
+            <p class="card-text small text-muted">Secure and documented gold trading for clients worldwide.</p>
+          </div>
+        </div>
       </div>
-    </section>
-    <!-- End Hero Section -->
 
-    <a
-      href="#"
-      class="scroll-top d-flex align-items-center justify-content-center"
-      ><i class="bi bi-arrow-up-short"></i
-    ></a>
+      <!-- Precious Gemstones -->
+      <div class="col-md-6 col-lg-3">
+        <div class="card h-100 text-center shadow-sm">
+          <img src="images/img (2).webp" class="card-img-top" alt="Precious Gemstones">
+          <div class="card-body">
+            <h5 class="card-title pt-2">Precious Gemstones</h5>
+            <p class="card-text small text-muted">Trading diamonds, rubies, emeralds, and other gemstones responsibly.</p>
+          </div>
+        </div>
+      </div>
 
-    <div id="preloader"></div>
+      <!-- Mineral Consultancy -->
+      <div class="col-md-6 col-lg-3">
+        <div class="card h-100 text-center shadow-sm">
+          <img src="images/img (6).png" class="card-img-top" alt="Mineral Consultancy">
+          <div class="card-body">
+            <h5 class="card-title pt-2">Mineral Consultancy</h5>
+            <p class="card-text small text-muted">Professional advice on mineral sourcing, compliance, and market insights.</p>
+          </div>
+        </div>
+      </div>
 
-    <!-- Vendor JS Files -->
-    <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-    <script src="assets/vendor/aos/aos.js"></script>
-    <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
-    <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
-    <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
-    <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
-    <script src="assets/vendor/php-email-form/validate.js"></script>
+    </div>
+  </div>
+</section>
+<!-- Services End -->
 
-    <!-- Template Main JS File -->
-    <script src="assets/js/main.js"></script>
-  </body>
+
+
+
+<!-- Core Values & Specialization Start -->
+<section id="core-values" class="py-5 bg-dark text-light">
+  <div class="container">
+
+    <!-- Section Title -->
+    <div class="row mb-5">
+      <div class="col text-center">
+        <h2 class="text-capitalize fw-bold">Core Values & Specialization</h2>
+      </div>
+    </div>
+
+    <!-- Core Values -->
+    <div class="row mb-5">
+      <div class="col-lg-6">
+        <h3 class="fw-bold mb-4">Core Values</h3>
+        <div class="row g-3">
+          <div class="col-12 d-flex align-items-start">
+            <i class="bi bi-shield-lock-fill fs-3 me-3"></i>
+            <p class="mb-0"><strong>Integrity:</strong> Uphold the highest ethical standards in all transactions.</p>
+          </div>
+          <div class="col-12 d-flex align-items-start">
+            <i class="bi bi-tree-fill fs-3 me-3"></i>
+            <p class="mb-0"><strong>Sustainability:</strong> Responsible sourcing and environmentally conscious practices.</p>
+          </div>
+          <div class="col-12 d-flex align-items-start">
+            <i class="bi bi-star-fill fs-3 me-3"></i>
+            <p class="mb-0"><strong>Excellence:</strong> Deliver superior quality in products and services globally.</p>
+          </div>
+          <div class="col-12 d-flex align-items-start">
+            <i class="bi bi-people-fill fs-3 me-3"></i>
+            <p class="mb-0"><strong>Respect for People & Culture:</strong> Foster fair trade and mutual respect.</p>
+          </div>
+          <!-- Add more as needed -->
+        </div>
+      </div>
+
+      <!-- Specialization -->
+      <div class="col-lg-6">
+        <h3 class="fw-bold mb-4">Specialization</h3>
+        <div class="row row-cols-2 g-3">
+          <div class="col"><div class="p-3 bg-secondary rounded text-center">Copper Cathodes</div></div>
+          <div class="col"><div class="p-3 bg-secondary rounded text-center">Gold</div></div>
+          <div class="col"><div class="p-3 bg-secondary rounded text-center">Diamonds</div></div>
+          <div class="col"><div class="p-3 bg-secondary rounded text-center">Emeralds</div></div>
+          <div class="col"><div class="p-3 bg-secondary rounded text-center">Rubies</div></div>
+          <div class="col"><div class="p-3 bg-secondary rounded text-center">Other Precious Minerals</div></div>
+        </div>
+        <p class="mt-3">All products meet international standards and are sourced responsibly with full documentation and legal compliance.</p>
+      </div>
+    </div>
+
+  </div>
+</section>
+<!-- Core Values & Specialization End -->
+
+
+<!-- Countries of Operation Start -->
+<section id="countries" class="py-5 bg-dark">
+  <div class="container">
+    <div class="row mb-5">
+      <div class="col text-center">
+        <h3 class="text-capitalize fw-bold text-white">Countries of Operation</h3>
+      </div>
+    </div>
+
+    <div class="row g-3 justify-content-center">
+      <!-- Example country card -->
+      <div class="col-6 col-sm-3 col-lg-1 text-center">
+        <img src="https://flagcdn.com/w40/zm.png" alt="Zambia Flag" class="img-fluid mb-2">
+        <p class="fw-bold text-white small">Zambia</p>
+      </div>
+
+      <div class="col-6 col-sm-3 col-lg-1 text-center">
+        <img src="https://flagcdn.com/w40/cd.png" alt="DRC Flag" class="img-fluid mb-2">
+        <p class="fw-bold text-white small">DRC</p>
+      </div>
+
+      <div class="col-6 col-sm-3 col-lg-1 text-center">
+        <img src="https://flagcdn.com/w40/tz.png" alt="Tanzania Flag" class="img-fluid mb-2">
+        <p class="fw-bold text-white small">Tanzania</p>
+      </div>
+
+      <div class="col-6 col-sm-3 col-lg-1 text-center">
+        <img src="https://flagcdn.com/w40/ao.png" alt="Angola Flag" class="img-fluid mb-2">
+        <p class="fw-bold text-white small">Angola</p>
+      </div>
+
+      <div class="col-6 col-sm-3 col-lg-1 text-center">
+        <img src="https://flagcdn.com/w40/ae.png" alt="UAE Flag" class="img-fluid mb-2">
+        <p class="fw-bold text-white small">UAE</p>
+      </div>
+
+      <div class="col-6 col-sm-3 col-lg-1 text-center">
+        <img src="https://flagcdn.com/w40/us.png" alt="USA Flag" class="img-fluid mb-2">
+        <p class="fw-bold text-white small">USA</p>
+      </div>
+
+      <div class="col-6 col-sm-3 col-lg-1 text-center">
+        <img src="https://flagcdn.com/w40/in.png" alt="India Flag" class="img-fluid mb-2">
+        <p class="fw-bold text-white small">India</p>
+      </div>
+
+      <div class="col-6 col-sm-3 col-lg-1 text-center">
+        <img src="https://flagcdn.com/w40/za.png" alt="South Africa Flag" class="img-fluid mb-2">
+        <p class="fw-bold text-white small">South Africa</p>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- Countries of Operation End -->
+
+
+
+
+
+
+
+
+
+<!-- Teams Start -->
+<section id="team">
+  <div class="container my-5 py-5">
+    <h2 class="text-capitalize text-center mb-5">Meet Our Team</h2>
+    <div class="row g-4">
+
+      <div class="col-md-4">
+        <div class="card text-center border-0 shadow">
+          <img src="images/team1.jpg" class="card-img-top" alt="Mohamed Mukhtar">
+          <div class="card-body">
+            <h5 class="card-title">Mohamed Mukhtar</h5>
+            <p class="card-text">CEO</p>
+            <div class="d-flex justify-content-center">
+              <a href="#"><img src="images/facebook.png" alt="Facebook" class="mx-1"></a>
+              <a href="#"><img src="images/twitter.png" alt="Twitter" class="mx-1"></a>
+              <a href="#"><img src="images/linkedin.png" alt="LinkedIn" class="mx-1"></a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4">
+        <div class="card text-center border-0 shadow">
+          <img src="images/team2.jpg" class="card-img-top" alt="Sydney Chafungwa">
+          <div class="card-body">
+            <h5 class="card-title">Sydney Chafungwa</h5>
+            <p class="card-text">Director / Shareholder</p>
+            <div class="d-flex justify-content-center">
+              <a href="#"><img src="images/facebook.png" alt="Facebook" class="mx-1"></a>
+              <a href="#"><img src="images/twitter.png" alt="Twitter" class="mx-1"></a>
+              <a href="#"><img src="images/linkedin.png" alt="LinkedIn" class="mx-1"></a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4">
+        <div class="card text-center border-0 shadow">
+          <img src="images/team3.jpg" class="card-img-top" alt="Yusufu Nawe">
+          <div class="card-body">
+            <h5 class="card-title">Yusufu Nawe</h5>
+            <p class="card-text">Director / Shareholder</p>
+            <div class="d-flex justify-content-center">
+              <a href="#"><img src="images/facebook.png" alt="Facebook" class="mx-1"></a>
+              <a href="#"><img src="images/twitter.png" alt="Twitter" class="mx-1"></a>
+              <a href="#"><img src="images/linkedin.png" alt="LinkedIn" class="mx-1"></a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+<!-- Teams End -->
+
+<!-- Contact Start -->
+<section id="contact" class="py-5 bg-dark">
+  <div class="container py-lg-5">
+
+    <div class="row align-items-center">
+      
+      <!-- Contact Form -->
+      <div class="col-lg-7 mb-5 mb-lg-0">
+        <h2 class="text-capitalize fw-bold mb-3">Get in Touch with I&I Mineral Trading</h2>
+        <p class="mb-4">Have questions or want to start a project with us? Fill out the form below and our team will reach out promptly.</p>
+
+        <form>
+          <div class="row g-3">
+            <div class="col-md-6">
+              <label for="name" class="form-label">Full Name</label>
+              <input type="text" class="form-control form-control-lg" id="name" placeholder="Your Name">
+            </div>
+            <div class="col-md-6">
+              <label for="email" class="form-label">Email Address</label>
+              <input type="email" class="form-control form-control-lg" id="email" placeholder="you@example.com">
+            </div>
+          </div>
+          <div class="mb-3 mt-3">
+            <label for="message" class="form-label">Message</label>
+            <textarea class="form-control form-control-lg" id="message" rows="5" placeholder="Your Message"></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary btn-lg px-5">Send Message</button>
+        </form>
+      </div>
+
+      <!-- Contact Info -->
+<div class="col-lg-5">
+  <h3 class="fw-bold mb-4">Contact Information</h3>
+  <ul class="list-unstyled fs-6">
+    <li class="mb-3"><i class="bi bi-geo-alt-fill me-2"></i><strong>Address:</strong> Plot 12180, Mosi-O-Tunya Road, Woodlands Extension, Lusaka, Zambia.</li>
+    <li class="mb-3"><i class="bi bi-envelope-fill me-2"></i><strong>Email:</strong> 
+      <ul class="list-unstyled mb-0">
+        <li>iandimineraltrading@gmail.com</li>
+        <li>Mohamed.Mukhtar@iandiminerals.com</li>
+        <li>Yusufu.Nawe@iandiminerals.com</li>
+        <li>Sydney.Chafungwa@iandiminerals.com</li>
+        <li>Ali.Nausher@iandiminerals.com</li>
+        <li>Trading@iandiminerals.com</li>
+        <li>info@iandiminerals.com</li>
+        <li>jobs@iandiminerals.com</li>
+      </ul>
+    </li>
+    <li class="mb-3"><i class="bi bi-telephone-fill me-2"></i><strong>Phone:</strong>+260 973 448164 | +260 967 226627</li>
+  </ul>
+  <p class="text-muted mt-3">Our team is available Monday to Friday, 8 AM - 6 PM.</p>
+</div>
+
+
+    </div>
+  </div>
+</section>
+<script>
+  // Select the form
+  const contactForm = document.querySelector("#contact form");
+
+  contactForm.addEventListener("submit", function(e) {
+    e.preventDefault(); // Prevent normal form submission
+
+    // Get form values
+    const name = document.getElementById("name").value.trim();
+    const email = document.getElementById("email").value.trim();
+    const message = document.getElementById("message").value.trim();
+
+    if(!name || !email || !message) {
+      alert("Please fill in all fields.");
+      return;
+    }
+
+    // Compose WhatsApp message
+    const whatsappMessage = `Hello I&I Mineral Trading,%0A%0AMy name is ${encodeURIComponent(name)}.%0AEmail: ${encodeURIComponent(email)}%0A%0AMessage: ${encodeURIComponent(message)}%0A%0AThank you.`;
+
+    // WhatsApp number (replace with your company number, include country code)
+    const whatsappNumber = "260973448164";
+
+    // Open WhatsApp chat
+    window.open(`https://wa.me/${whatsappNumber}?text=${whatsappMessage}`, "_blank");
+  });
+</script>
+
+<!-- Contact End -->
+
+
+
+<section id="footer" class="bg-dark text-dark py-5">
+  <div class="container">
+    <div class="row row-cols-1 row-cols-sm-2 row-cols-md-4 g-4">
+
+      <!-- Company Info -->
+      <div class="col">
+        <h5><img src="images/logo.png" width="100" alt="I&I Mineral Trading Logo" class="mb-3"></h5>
+        <p>I&I Mineral Trading is committed to ethical sourcing, global partnerships, and delivering top-quality minerals worldwide.</p>
+        <div class="d-flex gap-3 mt-3">
+          <a href="#" aria-label="Facebook" class="text-light"><i class="bi-facebook"></i></a>
+          <a href="#" aria-label="Instagram" class="text-light"><i class="bi-instagram"></i></a>
+          <a href="#" aria-label="Twitter" class="text-light"><i class="bi-twitter"></i></a>
+          <a href="#" aria-label="LinkedIn" class="text-light"><i class="bi-linkedin"></i></a>
+        </div>
+      </div>
+
+      <!-- Minerals -->
+      <div class="col">
+        <h5 class="mb-3">Minerals</h5>
+        <ul class="list-unstyled">
+          <li><a href="#" class="text-light text-decoration-none">Copper</a></li>
+          <li><a href="#" class="text-light text-decoration-none">Cobalt</a></li>
+          <li><a href="#" class="text-light text-decoration-none">Gold</a></li>
+          <li><a href="#" class="text-light text-decoration-none">Other Minerals</a></li>
+        </ul>
+      </div>
+
+      <!-- Company -->
+      <div class="col">
+        <h5 class="mb-3">Company</h5>
+        <ul class="list-unstyled">
+          <li><a href="#" class="text-light text-decoration-none">About Us</a></li>
+          <li><a href="#" class="text-light text-decoration-none">Leadership</a></li>
+          <li><a href="#" class="text-light text-decoration-none">Compliance</a></li>
+        </ul>
+      </div>
+
+      <!-- Services / Resources -->
+      <div class="col">
+        <h5 class="mb-3">Services & Resources</h5>
+        <ul class="list-unstyled">
+          <li><a href="#" class="text-light text-decoration-none">Trading</a></li>
+          <li><a href="#" class="text-light text-decoration-none">Logistics</a></li>
+          <li><a href="#" class="text-light text-decoration-none">Consulting</a></li>
+          <li><a href="#" class="text-light text-decoration-none">Privacy Policy</a></li>
+          <li><a href="#" class="text-light text-decoration-none">Terms & Conditions</a></li>
+        </ul>
+      </div>
+
+    </div>
+
+    <!-- Bottom Footer -->
+    <div class="d-flex flex-column flex-md-row justify-content-between align-items-center pt-4 mt-4 border-top">
+      <p class="mb-2 mb-md-0">© 2025 I&I Mineral Trading. All rights reserved.</p>
+      <p class="mb-0">Website by: <a href="https://pikozm.com" class="text-primary">Piko Technology Services</a></p>
+    </div>
+  </div>
+</section>
+
+
+
+
+
+
+  <script src="js/jquery-1.11.0.min.js"></script>
+  <script src="js/script.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+    crossorigin="anonymous"></script>
+</body>
+
 </html>
